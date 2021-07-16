@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://GGY-GitHub.github.io</id>
     <title>The Website of GGY</title>
-    <updated>2021-07-16T16:01:12.669Z</updated>
+    <updated>2021-07-16T16:03:02.562Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://GGY-GitHub.github.io"/>
     <link rel="self" href="https://GGY-GitHub.github.io/atom.xml"/>
@@ -65,6 +65,7 @@
         <content type="html"><![CDATA[<pre><code>   大家好，我是管港云！！😀欢迎来到我的主页！
 </code></pre>
 <!-- more -->
+<pre><code>    欢迎大家常来作客，博主讲不定期更新。</code></pre>
 ]]></content>
     </entry>
 </feed>
