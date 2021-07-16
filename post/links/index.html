@@ -24,6 +24,12 @@
 
 <!-- Comment -->
 
+    
+        <link href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css" rel="stylesheet">
+    
+
+    
+
 
 
 <!-- katex -->
@@ -35,7 +41,7 @@
 
 </head>
 <body>
-<div id="fh5co-offcanvas">
+    <div id="fh5co-offcanvas">
     <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
         <span><i class="icon-cross3"></i> <span>Close</span></span>
     </a>
@@ -135,20 +141,74 @@
 </header>
 
 
-<div class="container-fluid" style="height: 100%;">
-    <div class="row fh5co-post-entry">
+    <!--  <a href="#" class="fh5co-post-prev"><span>👈 Prev</span></a>-->
+    <!--  <a href="#" class="fh5co-post-next"><span>Next 👉</span></a>-->
 
-        
-            <article class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-xxs-12 animate-box">
-                <h2 class="fh5co-article-title">
-                    <i class="fa fa-tag" style="opacity: .6; font-size: 19px;"></i>
-                    <a href="https://GGY-GitHub.github.io/tag/yIZM_eg9D/">Happy Day</a>
-                </h2>
-            </article>
-        
-        <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
+    <!-- 等gridea出自定义页面功能再优化一下 -->
+    
+        <div class="container-fluid">
+    <div class="row fh5co-post-entry single-entry">
+        <article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+            <figure class="animate-box">
+                
+            </figure>
+            <span class="fh5co-meta animate-box">
+                
+            </span>
+            <h2 class="fh5co-article-title animate-box">Links</h2>
+            <ol class="breadcrumb fh5co-meta fh5co-date animate-box" style="margin-bottom:0; background-color:#f8f9fa">
+                <li>2021-07-16</li>
+                <li>0字</li>
+                <li>0 min read</li>
+            </ol>
 
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
+                <div class="row">
+                    <div class="col-md-12 animate-box post-content">
+                        <p> <p><a href="https://www.wizdom.ai/" name="科学领域" logo="https://img1.baidu.com/it/u=291539174,3303264017&fm=26&fmt=auto&gp=0.jpg">/</p>
+<p><a href="https://www.connectedpapers.com/" name="智慧根系" logo="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fn.sinaimg.cn%2Fsinacn20%2F345%2Fw600h545%2F20180421%2F4743-fytnfyp8798158.jpg&refer=http%3A%2F%2Fn.sinaimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1629037261&t=6a65c9b88f365c3d8e29654da86d30f7">/</p>
+<p><a href="http://trend.aminer.cn/" name="技术革命" logo="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.moehui.com%2Fwp-content%2Fuploads%2F2020%2F02%2FSesshoumaruCG_15.jpg&refer=http%3A%2F%2Fwww.moehui.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1629037377&t=a3cf98e12d401c76d412385fd6203f19">/</p>
+<p><a href="http://sciengine.las.ac.cn/" name="时空引擎" logo="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201807%2F13%2F20180713170405_hSVY2.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1629037377&t=a4d0df82b3bb88708c9e447f73fa634c">/</p>
+ </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 animate-box">
+                        
+                    </div>
+                </div>
+
+                <div class="row">
+    <div class="col-md-12 animate-box">
+        
+            
+                <div id="gitalk-container"></div>
+            
+
+            
+        
     </div>
+</div>
+
+            </div>
+
+        </article>
+    </div>
+</div>
+
+    
+
+    <!-- 返回顶部 -->
+    <div class="back-to-top">
+    
+    <a href="#top" class="hidden-xs hidden-sm"><i class="fa fa-paper-plane"></i></a>
+</div>
+
+<div class="post-toc animated fadeInRight hidden-xs hidden-sm" style="display: none;">
+    
+</div>
+
 
     
 <footer id="fh5co-footer">
@@ -156,9 +216,8 @@
                     -----Guanyun Guan</p>
 </footer>
 
-</div>
 
-<!-- jQuery -->
+    <!-- jQuery -->
 <script src="https://GGY-GitHub.github.io/media/scripts/jquery.min.js"></script>
 <!-- img lazy load -->
 <script src="https://GGY-GitHub.github.io/media/scripts/jquery.lazyload.min.js"></script>
@@ -199,6 +258,29 @@
 
     
 </script>
+
+
+
+    
+        <script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+        <script>
+
+            var gitalk = new Gitalk({
+                clientID: '',
+                clientSecret: '',
+                repo: '',
+                owner: '',
+                admin: [''],
+                id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+                distractionFreeMode: false  // Facebook-like distraction free mode
+            })
+
+            gitalk.render('gitalk-container')
+
+        </script>
+    
+
+    
 
 
 
