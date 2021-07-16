@@ -69,6 +69,10 @@
             
                 <li>
                     
+                        <a href="https://www.zhihu.com/people/yun-zhi-xiao-zhong-duan" target="_blank">
+                            <i class="fab fa-zhihu"></i>
+                        </a>
+                    
                 </li>
             
                 <li>
@@ -263,6 +267,14 @@
         });
     });
 
+    
+        var allImg = $("img");
+        allImg.on("contextmenu", function () {
+            return false;
+        });
+        allImg.on("dragstart", function () {
+            return false;
+        });
     
 </script>
 
