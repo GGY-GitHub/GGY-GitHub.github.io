@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://GGY-GitHub.github.io</id>
-    <title>Gangyun Guan</title>
-    <updated>2021-07-16T14:47:44.571Z</updated>
+    <title>The Website of GGY</title>
+    <updated>2021-07-16T14:50:18.994Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://GGY-GitHub.github.io"/>
     <link rel="self" href="https://GGY-GitHub.github.io/atom.xml"/>
     <subtitle>这是一个由管港云建立的网站</subtitle>
     <logo>https://GGY-GitHub.github.io/images/avatar.png</logo>
     <icon>https://GGY-GitHub.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gangyun Guan</rights>
+    <rights>All rights reserved 2021, The Website of GGY</rights>
     <entry>
         <title type="html"><![CDATA[Hello World!]]></title>
         <id>https://GGY-GitHub.github.io/post/hello-world/</id>
