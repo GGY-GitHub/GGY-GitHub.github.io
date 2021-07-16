@@ -2,11 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://GGY-GitHub.github.io</id>
     <title>The Website of GGY</title>
-    <updated>2021-07-16T16:03:02.562Z</updated>
+    <updated>2021-07-16T16:06:23.202Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://GGY-GitHub.github.io"/>
     <link rel="self" href="https://GGY-GitHub.github.io/atom.xml"/>
-    <subtitle>这是一个由管港云建立的网站</subtitle>
+    <subtitle>          这是一个由管港云建立的网站
+相关事宜可联系guangangyun@qq.com</subtitle>
     <logo>https://GGY-GitHub.github.io/images/avatar.png</logo>
     <icon>https://GGY-GitHub.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, The Website of GGY</rights>
